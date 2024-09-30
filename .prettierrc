@@ -1,0 +1,21 @@
+{
+  "printWidth": 80,
+  "semi": true,
+  "bracketSpacing": true,
+  "jsxSingleQuote": false,
+  "arrowParens": "always",
+  "proseWrap": "never",
+  "htmlWhitespaceSensitivity": "strict",
+  "singleQuote": true,
+  "tabWidth": 4,
+  "useTabs": false,
+  "endOfLine": "lf",
+  "trailingComma" : "none",
+  "prettier/prettier": [
+    "error",
+    {
+      "singleQuote": true,
+      "parser": "flow"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "video-script",
+  "version": "1.0.0",
+  "main": "dist/video-script.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/auto-tc.js"
+  },
+  "author": "lucas matos",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
